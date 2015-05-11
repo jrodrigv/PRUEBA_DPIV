@@ -8,5 +8,8 @@ namespace PRUEBA_DPIV
 {
     public class Node
     {
+        public int value { get; set; }
+        public Node left;
+        public Node right;
     }
 }
